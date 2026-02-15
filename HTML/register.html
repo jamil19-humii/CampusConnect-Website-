@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - CampusConnect</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+     <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Aurora College</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <h2>Event Registration Form</h2>
+
+    <form id="registrationForm">
+
+        <label>Student Admission Number:</label><br>
+        <input type="text" id="admission"><br>
+        <span id="admissionError" class="error"></span><br><br>
+
+        <label>Name:</label><br>
+        <input type="text" id="name"><br>
+        <span id="nameError" class="error"></span><br><br>
+
+        <label>Select Event:</label><br>
+        <select id="event">
+            <option value="">-- Select Event --</option>
+            <option>Cultural Week</option>
+            <option>Sports Day</option>
+            <option>Students Election</option>
+            <option>Tree Planting Day</option>
+        </select><br><br>
+
+        <label>Email Address:</label><br>
+        <input type="text" id="email"><br>
+        <span id="emailError" class="error"></span><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <footer>
+        <p>&copy; 2026 My College. All Rights Reserved.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
